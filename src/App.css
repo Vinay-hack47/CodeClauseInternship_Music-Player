@@ -1,0 +1,45 @@
+/* .header{
+  background-image: url(https://wallpaperaccess.com/full/3192310.jpg);
+  background-size: cover;
+  background-color: aqua;
+} */
+
+.App {
+  padding: 20px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
